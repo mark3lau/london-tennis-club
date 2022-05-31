@@ -7,21 +7,32 @@
 }
 
 body {
-    font-family: Abril Fatface, sans-serif;
-    font-weight: 150;
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 300px;
+    color: darkslategray;
+}
+
+/* navigation links and logo */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid #007b22;
+    padding: 10px;
 }
 
 #tennis-ball {
-    max-width: 100px;
-    max-height: 100px;
-    float: left;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
-
-/* navigation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color: darkslategray;
 }
 
 #menu ul {
@@ -31,6 +42,31 @@ body {
 #menu li {
     float: left;
     list-style-type: none;
-    margin-right: 30px;
-    margin-top: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
 }
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu li a:hover {
+    border-bottom: 2px solid darkslategray;
+}
+
+/* headings */
+
+h1 {
+    font-family: Abril Fatface, sans-serif;
+    font-weight: 250px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkslategray;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
