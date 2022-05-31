@@ -16,3 +16,21 @@ body {
     max-height: 100px;
     float: left;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 30px;
+}
