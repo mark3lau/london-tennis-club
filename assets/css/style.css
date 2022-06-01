@@ -30,7 +30,7 @@ header {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
     color: darkslategray;
 }
@@ -45,6 +45,8 @@ header {
     margin-right: 20px;
     margin-top: 20px;
     text-decoration: none;
+    border-right: 2px solid black;
+    padding: 5px;
 }
 
 #menu a {
@@ -61,10 +63,11 @@ header {
 h1 {
     font-family: Abril Fatface, sans-serif;
     font-weight: 250px;
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: darkslategray;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 
