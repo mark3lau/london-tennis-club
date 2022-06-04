@@ -122,14 +122,14 @@ h2 {
 }
 
 .left-tennis-ball, .center-tennis-ball, .right-tennis-ball {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 #left-about {
     float: left;
     text-align: left;
-    max-width: 200px;
+    max-width: 250px;
     margin-left: 20px;
 }
 
@@ -150,7 +150,7 @@ h2 {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -162,7 +162,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: darkslategray;
