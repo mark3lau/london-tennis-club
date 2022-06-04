@@ -10,7 +10,7 @@ body {
     font-family: libre franklin, sans-serif;
     font-weight: 300px;
     color: darkslategray;
-    background-color: lightgrey;
+    background-color: rgb(242, 240, 240);
 }
 
 /* navigation links and logo */
@@ -118,7 +118,7 @@ h2 {
 /* Why Join Us */
 
 #why-join-us {
-    height: 600px;
+    height: 800px;
 }
 
 .left-tennis-ball, .center-tennis-ball, .right-tennis-ball {
@@ -130,7 +130,7 @@ h2 {
     float: left;
     text-align: left;
     max-width: 250px;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 #center-about {
@@ -142,9 +142,8 @@ h2 {
 #right-about {
     float: right;
     text-align: right;
-    max-width: 200px;
+    max-width: 250px;
     margin-right: 100px;
-    margin-bottom: 200px;
 }
 
 /* footer */
