@@ -124,23 +124,25 @@ h2 {
 .left-tennis-ball, .center-tennis-ball, .right-tennis-ball {
     max-width: 300px;
     max-height: 300px;
-    display: inline-block;
 }
 
 #left-about {
     float: left;
     text-align: left;
-    max-width: 250px;
+    max-width: 200px;
+    margin-left: 20px;
 }
 
 #center-about {
     margin: 0 auto;
     text-align: center;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 #right-about {
     float: right;
     text-align: right;
-    max-width: 250px;
+    max-width: 200px;
+    margin-right: 100px;
+    margin-bottom: 200px;
 }
