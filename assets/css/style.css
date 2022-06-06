@@ -21,13 +21,18 @@ header {
     align-items: center;
     border-bottom: 10px solid #0eb172;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(228, 224, 224);
 }
 
 #home-tennis-ball {
     max-width: 70px;
     max-height: 70px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #menu {
@@ -70,6 +75,7 @@ h1 {
     letter-spacing: 2px;
     color: #0eb172;
     margin: 50px 30px;
+    margin-top: 180px;
     text-align: center;
     letter-spacing: 5px;
 }
@@ -136,9 +142,8 @@ h2 {
 
 #how-it-works div {
     color:rgb(228, 224, 224);
-    background-color: rgb(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .3);
     font-size: 40px;
-    padding: 10px;
     width: 25%;
     height: 600px;
     padding: 30px 0 0 20px;
@@ -146,7 +151,14 @@ h2 {
     text-align: center;
     border: 8px solid rgba(244, 165, 0, .7);
     box-sizing: border-box;
+    display: table;
 }
+
+#how-it-works h4 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
 /* footer */
 
