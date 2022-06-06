@@ -193,3 +193,19 @@ footer {
     padding: 5%;
     color: #0eb172;
 }
+
+/* Join us page*/
+
+#join-us {
+    border: 8px solid rgba(244, 165, 0, .7);
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    margin: 200px auto;
+    padding: 10px; 
+}
+
+#join-us div {
+    padding: 10px;
+    font-weight: bold;
+}
