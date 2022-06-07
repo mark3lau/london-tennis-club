@@ -93,13 +93,12 @@ h2 {
 
 h3 {
     font-family: abril fatface, sans-serif;
-    font-weight: 250px;
-    font-size: 40px;
+    font-weight: 150px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: #0eb172;
     margin: 30px 0;
-    text-align: center;
 }
 
 /* hero image */
@@ -235,4 +234,51 @@ footer {
     border: 2px solid rgba(244, 165, 0, .9);
     color: #0eb172;
     font-weight: bold;
+}
+
+/* Tennis Courts page*/
+
+#courts {
+    margin: 200px auto;
+    display: flexbox;
+}
+
+.north {
+    float: left;
+    text-align: left;
+    width: 100%;
+    height: 300px;
+    border: 8px solid rgba(244, 165, 0, .9);
+    margin: 5px;
+    padding: 5px;
+}
+
+.east {
+    float: right;
+    text-align: right;
+    width: 100%;
+    height: 300px;
+    border: 8px solid rgba(244, 165, 0, .9);
+    margin: 5px;
+    padding: 5px;
+}
+
+.south {
+    float: left;
+    text-align: left;
+    width: 100%;
+    height: 300px;
+    border: 8px solid rgba(244, 165, 0, .9);
+    margin: 5px;
+    padding: 5px;
+}
+
+.west {
+    float: right;
+    text-align: right;
+    width: 100%;
+    height: 300px;
+    border: 8px solid rgba(244, 165, 0, .9);
+    margin: 5px;
+    padding: 5px;
 }
