@@ -228,9 +228,10 @@ footer {
     font-style: italic;
 }
 
-.submit-button {
+.buttons {
     font-size: 18px;
     padding: 5px;
+    margin: 5px;
     border: 2px solid rgba(244, 165, 0, .9);
     color: #0eb172;
     font-weight: bold;
