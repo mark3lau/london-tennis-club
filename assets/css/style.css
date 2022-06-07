@@ -240,45 +240,49 @@ footer {
 
 #courts {
     margin: 200px auto;
-    display: flexbox;
+    display: inline-block;
 }
 
 .north {
     float: left;
-    text-align: left;
-    width: 100%;
-    height: 300px;
+    text-align: left justify;
+    width: 48%;
+    height: 500px;
     border: 8px solid rgba(244, 165, 0, .9);
-    margin: 5px;
     padding: 5px;
+    margin: 5px;
+    font-size: 25px;
 }
 
 .east {
     float: right;
-    text-align: right;
-    width: 100%;
-    height: 300px;
+    text-align: right justify;
+    width: 48%;
+    height: 500px;
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
+    font-size: 25px;
 }
 
 .south {
     float: left;
-    text-align: left;
-    width: 100%;
-    height: 300px;
+    text-align: left justify;
+    width: 48%;
+    height: 500px;
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
+    font-size: 25px;
 }
 
 .west {
     float: right;
-    text-align: right;
-    width: 100%;
-    height: 300px;
+    text-align: right justify;
+    width: 48%;
+    height: 500px;
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
+    font-size: 25px;
 }
