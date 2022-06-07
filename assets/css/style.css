@@ -197,12 +197,12 @@ footer {
 /* Join us page*/
 
 #join-us {
-    border: 8px solid rgba(244, 165, 0, .50);
+    border: 8px solid rgba(244, 165, 0, .9);
     text-align: center;
     width: 50%;
     height: 500px;
     padding: 10px;
-    background: rgba(244, 165, 0, .50);
+    background: rgba(228, 224, 224, 0.9);
     margin: 200px auto;
     top: 30px;
     left: 450px;
@@ -212,6 +212,7 @@ footer {
 #join-us div {
     padding: 10px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 #join-us-image {
@@ -220,4 +221,17 @@ footer {
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+
+.radio-text {
+    padding: 5px;
+    font-style: italic;
+}
+
+.submit-button {
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid rgba(244, 165, 0, .9);
+    color: #0eb172;
+    font-weight: bold;
 }
