@@ -90,16 +90,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    font-family: abril fatface, sans-serif;
-    font-weight: 150px;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #0eb172;
-    margin: 25px 0;
-}
-
 /* hero image */
 
 #hero-image {
@@ -131,20 +121,22 @@ h3 {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-
-    background-color: rgba(244, 165, 0, .7);
-
     bottom: 2px;
     left: 120px;
-
+    background-color: rgba(244, 165, 0, .7);
     position: absolute;
+}
 
-    font-size: 20px;
+#cover-text h3 {
+    font-family: abril fatface, sans-serif;
+    font-size: 40px;
+    color: #0d0e0d;
     text-align: center;
     line-height: 40px;
     padding: 5px;
+    margin-top: 60px;
 }
-
+    
 /* How it works */
 
 .sub-heading {
@@ -181,10 +173,10 @@ h3 {
     vertical-align: middle;
 }
 
-.icons {
-    position: relative;
+#how-it-works i {
+    color: rgba(244, 165, 0, .7);
+    
 }
-
 
 /* footer */
 
@@ -256,6 +248,16 @@ footer {
     margin-top: 180px;
     display: block;
 }
+
+#courts h3 {
+        font-family: abril fatface, sans-serif;
+        font-weight: 150px;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #0eb172;
+        margin: 25px 0;
+    }
 
 .north {
     float: left;
