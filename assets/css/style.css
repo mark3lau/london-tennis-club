@@ -240,49 +240,81 @@ footer {
 
 #courts {
     margin: 200px auto;
-    display: inline-block;
+    display: block;
 }
 
 .north {
     float: left;
     text-align: left justify;
-    width: 48%;
     height: 500px;
+    width: 48%;
     border: 8px solid rgba(244, 165, 0, .9);
     padding: 5px;
     margin: 5px;
     font-size: 25px;
+    display: block;
 }
 
 .east {
     float: right;
     text-align: right justify;
-    width: 48%;
     height: 500px;
+    width: 48%;
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
     font-size: 25px;
+    display: block;
 }
 
 .south {
     float: left;
     text-align: left justify;
-    width: 48%;
     height: 500px;
+    width: 48%;
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
     font-size: 25px;
+    display: block;
 }
 
 .west {
     float: right;
     text-align: right justify;
-    width: 48%;
     height: 500px;
+    width: 48%;
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
     font-size: 25px;
+    display: block;
+}
+
+.north-map {
+    width: 49%;
+    height: 526px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.east-map {
+    width: 49%;
+    height: 526px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.south-map {
+    width: 49%;
+    height: 526px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.west-map {
+    width: 49%;
+    height: 526px;
+    padding: 5px;
+    margin-left: 5px;
 }
