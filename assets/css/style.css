@@ -129,7 +129,7 @@ h3 {
 /* How it works */
 
 .sub-heading {
-    margin: 50px 30px;
+    margin: 100px 30px 50px 30px;
 }
 
 #how-it-works {
