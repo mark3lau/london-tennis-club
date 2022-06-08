@@ -8,8 +8,8 @@
 
 body {
     font-family: libre franklin, sans-serif;
-    font-weight: 300px;
-    color: #0eb172;
+    font-weight: 120px;
+    color: #0d0e0d;
     background-color: rgb(228, 224, 224);
 }
 
@@ -36,8 +36,8 @@ header {
 }
 
 #menu {
-    font-size: 100%;
     font-weight: bold;
+    font-size: 16px;
     letter-spacing: 5px;
     color: #0eb172;
 }
@@ -54,7 +54,6 @@ header {
     text-decoration: none;
     border-right: 2px solid #0eb172;
     padding: 5px;
-    font-weight: 100px;
 }
 
 #menu a {
@@ -98,7 +97,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #0eb172;
-    margin: 30px 0;
+    margin: 25px 0;
 }
 
 /* hero image */
@@ -107,10 +106,6 @@ h3 {
     height: 600px;
     width: 100%;
     background: url(../images/pexels-mudassir-ali-1619860_small.jpg) no-repeat center center;
-}
-
-#cover-text, #cover-text h2 {
-    color: black;
 }
 
 #cover-text {
@@ -239,7 +234,7 @@ footer {
 /* Tennis Courts page*/
 
 #courts {
-    margin: 200px auto;
+    margin-top: 180px;
     display: block;
 }
 
@@ -251,7 +246,7 @@ footer {
     border: 8px solid rgba(244, 165, 0, .9);
     padding: 5px;
     margin: 5px;
-    font-size: 25px;
+    font-size: 22px;
     display: block;
 }
 
@@ -263,7 +258,7 @@ footer {
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 22px;
     display: block;
 }
 
@@ -275,7 +270,7 @@ footer {
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 22px;
     display: block;
 }
 
@@ -287,7 +282,7 @@ footer {
     border: 8px solid rgba(244, 165, 0, .9);
     margin: 5px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 22px;
     display: block;
 }
 
