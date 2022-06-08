@@ -71,12 +71,11 @@ h1 {
     font-weight: 250px;
     font-size: 80px;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color: #0eb172;
     margin: 50px 30px;
     margin-top: 180px;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
 
 h2 {
@@ -84,10 +83,10 @@ h2 {
     font-weight: 250px;
     font-size: 50px;
     text-transform: uppercase;
-    letter-spacing: 5px;
     color: #0eb172;
     margin: 50px 30px;
     text-align: center;
+    letter-spacing: 5px;
 }
 
 /* hero image */
