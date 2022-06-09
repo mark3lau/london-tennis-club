@@ -92,29 +92,27 @@ h2 {
 /* hero image */
 
 #hero-image {
-    height: 600px;
     max-width: 100%;
     background: url(../images/pexels-mudassir-ali-1619860_small.jpg) no-repeat center center;
 }
 
 #cover-text {
-    width: 250px;
-    height: 250px;
+    width: 360px;
+    height: 360px;
     border-radius: 50%;
-    bottom: 2px;
-    left: 120px;
+    top: 100%;
+    left: 8%;
     background-color: rgba(244, 165, 0, .7);
     position: absolute;
 }
 
 #cover-text h3 {
     font-family: abril fatface, sans-serif;
-    font-size: 40px;
+    font-size: 380%;
     color: #0d0e0d;
     text-align: center;
-    line-height: 40px;
     padding: 5px;
-    margin-top: 60px;
+    margin-top: 18%;
 }
     
 /* How it works */
@@ -243,7 +241,7 @@ footer {
 .thank-you h3 {
     text-align: center;
     margin: 5%;
-    font-size: 200%;
+    font-size: 180%;
     font-family: abril fatface, sans-serif;
     color: #0d0e0d;
     padding: 5px;
