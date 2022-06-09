@@ -86,7 +86,7 @@ h2 {
     color: #0eb172;
     margin: 50px 30px;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 /* hero image */
@@ -218,6 +218,35 @@ footer {
     border: 2px solid rgba(244, 165, 0, .9);
     color: #0eb172;
     font-weight: bold;
+}
+
+/* Thank you page */
+
+.thank-you {
+    border: 8px solid rgba(244, 165, 0, .9);
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    background: rgba(228, 224, 224, 0.9);
+    margin: 200px auto;
+    top: 30px;
+    left: 450px;
+    position: absolute;
+}
+
+.thank-you h2 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.thank-you h3 {
+    text-align: center;
+    margin: 5%;
+    font-size: 200%;
+    font-family: abril fatface, sans-serif;
+    color: #0d0e0d;
+    padding: 5px;
 }
 
 /* Tennis Courts page*/
