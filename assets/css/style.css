@@ -28,25 +28,25 @@ header {
     background-color: rgb(228, 224, 224);
 }
 
-#tennis-ball {
+.tennis-ball-home-button {
     max-width: 70px;
     max-height: 70px;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-#menu {
+.menu {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 5px;
     color: #0eb172;
 }
 
-#menu ul {
+.menu ul {
     float: right;
 }
 
-#menu li {
+.menu li {
     float: left;
     list-style-type: none;
     margin-right: 20px;
@@ -56,11 +56,11 @@ header {
     padding: 5px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
 }
 
-#menu li a:hover {
+.menu li a:hover {
     border-bottom: 2px solid #0eb172;
 }
 
@@ -91,12 +91,12 @@ h2 {
 
 /* hero image */
 
-#hero-image {
+.hero-image {
     max-width: 100%;
-    background: url(../images/pexels-mudassir-ali-1619860_small.jpg) no-repeat center center;
+    background: no-repeat center center;
 }
 
-#cover-text {
+.cover-text {
     width: 360px;
     height: 360px;
     border-radius: 50%;
@@ -106,7 +106,7 @@ h2 {
     position: absolute;
 }
 
-#cover-text h3 {
+.cover-text h3 {
     font-family: abril fatface, sans-serif;
     font-size: 380%;
     color: #0d0e0d;
@@ -114,7 +114,7 @@ h2 {
     padding: 5px;
     margin-top: 18%;
 }
-    
+
 /* How it works */
 
 .sub-heading {
@@ -122,7 +122,7 @@ h2 {
 }
 
 #how-it-works {
-    background-image: url(../images/pexels-photo-8223993.jpeg);
+    background-image: url(../images/how-it-works-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -133,7 +133,7 @@ h2 {
 }
 
 #how-it-works div {
-    color:rgb(228, 224, 224);
+    color: rgb(228, 224, 224);
     background-color: rgba(0, 0, 0, .7);
     font-size: 40px;
     width: 25%;
@@ -165,7 +165,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -177,7 +177,7 @@ footer {
 
 /* Join us page*/
 
-#join-us {
+.join-us {
     border: 8px solid rgba(244, 165, 0, .9);
     text-align: center;
     width: 50%;
@@ -190,13 +190,13 @@ footer {
     position: absolute;
 }
 
-#join-us div {
+.join-us div {
     padding: 10px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-#join-us-image {
+.join-us-image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,20 +249,20 @@ footer {
 
 /* Tennis Courts page*/
 
-#courts {
+.courts {
     margin-top: 180px;
     display: block;
 }
 
-#courts h3 {
-        font-family: abril fatface, sans-serif;
-        font-weight: 150px;
-        font-size: 30px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #0eb172;
-        margin: 25px 0;
-    }
+.courts h3 {
+    font-family: abril fatface, sans-serif;
+    font-weight: 150px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0eb172;
+    margin: 25px 0;
+}
 
 .north {
     float: left;
@@ -344,6 +344,4 @@ footer {
 
 /* For larger to medium screen size from 1200px wide and down */
 
-@media screen and (max-width: 1200px) {
-    
-}
+@media screen and (max-width: 1200px) {}
