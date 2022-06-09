@@ -81,7 +81,6 @@ h1 {
     text-align: center;
     letter-spacing: 8px;
     border: 5px solid #F8AB46;
-    border-image-width: 100px;
 }
 
 /* h2 headings styling */
@@ -92,7 +91,7 @@ h2 {
     font-size: 50px;
     text-transform: uppercase;
     color: #2b9c71;
-    margin: 50px 30px;
+    margin: 40px 30px;
     text-align: center;
     letter-spacing: 3px;
 }
@@ -118,11 +117,11 @@ h2 {
 
 .cover-text h3 {
     font-family: abril fatface, sans-serif;
-    font-size: 380%;
     color: #0d0e0d;
     text-align: center;
     padding: 5px;
     margin-top: 18%;
+    font-size: 360%;
 }
 
 /* How it works */
@@ -149,10 +148,10 @@ h2 {
 .how-it-works div {
     color: rgb(228, 224, 224);
     background-color: rgba(0, 0, 0, .7);
-    font-size: 40px;
+    font-size: 30px;
     width: 25%;
     height: 500px;
-    padding: 30px 0 0 20px;
+    padding: 30px 20px;
     float: left;
     text-align: center;
     border: 8px solid #F8AB46;
@@ -240,7 +239,15 @@ footer {
 }
 
 input[type="text" i] {
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+input[type="email" i] {
+    margin-left: 10px
+}
+
+input[type="date" i] {
+    margin-left: 10px;
 }
 
 /* Thank you page */
