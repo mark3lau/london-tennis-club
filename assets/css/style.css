@@ -283,7 +283,7 @@ footer {
 
 /* Tennis courts text box styling */
 
-.north {
+.north-txt-box {
     float: left;
     text-align: left justify;
     height: 500px;
@@ -295,7 +295,7 @@ footer {
     display: block;
 }
 
-.east {
+.east-txt-box {
     float: right;
     text-align: right justify;
     height: 500px;
@@ -307,7 +307,7 @@ footer {
     display: block;
 }
 
-.south {
+.south-txt-box {
     float: left;
     text-align: left justify;
     height: 500px;
@@ -319,7 +319,7 @@ footer {
     display: block;
 }
 
-.west {
+.west-txt-box {
     float: right;
     text-align: right justify;
     height: 500px;
