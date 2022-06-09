@@ -13,7 +13,9 @@ body {
     background-color: rgb(228, 224, 224);
 }
 
-/* navigation links and logo */
+/* Navigation links and logo */
+
+/* Header styling */
 
 header {
     display: flex;
@@ -49,8 +51,7 @@ header {
 .menu li {
     float: left;
     list-style-type: none;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin: 10px 20px 0 0;
     text-decoration: none;
     border-right: 2px solid #0eb172;
     padding: 5px;
@@ -64,7 +65,9 @@ header {
     border-bottom: 2px solid #0eb172;
 }
 
-/* headings */
+/* Headings */
+
+/* Landing page title */
 
 h1 {
     font-family: abril fatface, sans-serif;
@@ -78,6 +81,8 @@ h1 {
     letter-spacing: 8px;
 }
 
+/* h2 headings styling */
+
 h2 {
     font-family: abril fatface, sans-serif;
     font-weight: 250px;
@@ -89,12 +94,14 @@ h2 {
     letter-spacing: 3px;
 }
 
-/* hero image */
+/* Hero image */
 
 .hero-image {
     max-width: 100%;
     background: no-repeat center center;
 }
+
+/* Landing page cover text styling */
 
 .cover-text {
     width: 360px;
@@ -121,7 +128,9 @@ h2 {
     margin: 100px 30px 50px 30px;
 }
 
-#how-it-works {
+/* How it works background image */
+
+.how-it-works {
     background-image: url(../images/how-it-works-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +141,9 @@ h2 {
     margin: 50px 0;
 }
 
-#how-it-works div {
+/* How it works text styling */
+
+.how-it-works div {
     color: rgb(228, 224, 224);
     background-color: rgba(0, 0, 0, .7);
     font-size: 40px;
@@ -146,12 +157,12 @@ h2 {
     display: table;
 }
 
-#how-it-works h4 {
+.how-it-works h4 {
     display: table-cell;
     vertical-align: middle;
 }
 
-#how-it-works i {
+.how-it-works i {
     color: rgba(244, 165, 0, .7);
 }
 
@@ -176,6 +187,8 @@ footer {
 }
 
 /* Join us page*/
+
+/* Join us form styling */
 
 .join-us {
     border: 8px solid rgba(244, 165, 0, .9);
@@ -220,6 +233,8 @@ footer {
 
 /* Thank you page */
 
+/* Thank you box styling */
+
 .thank-you {
     border: 8px solid rgba(244, 165, 0, .9);
     text-align: center;
@@ -247,12 +262,14 @@ footer {
     padding: 5px;
 }
 
-/* Tennis Courts page*/
+/* Tennis courts page*/
 
 .courts {
     margin-top: 180px;
     display: block;
 }
+
+/* Tennis courts h3 styling */
 
 .courts h3 {
     font-family: abril fatface, sans-serif;
@@ -263,6 +280,8 @@ footer {
     color: #0eb172;
     margin: 25px 0;
 }
+
+/* Tennis courts text box styling */
 
 .north {
     float: left;
@@ -311,6 +330,8 @@ footer {
     font-size: 22px;
     display: block;
 }
+
+/* Tennis courts maps styling */
 
 .north-map {
     width: 49%;
