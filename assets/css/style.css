@@ -160,7 +160,7 @@ h2 {
 /* footer */
 
 footer {
-    height: 100px;
+    height: 10%;
 }
 
 .social-networks {
@@ -173,8 +173,7 @@ footer {
 
 .social-networks i {
     font-size: 200%;
-    margin: 1%;
-    padding: 5%;
+    padding: 3%;
     color: #0eb172;
 }
 
@@ -312,4 +311,12 @@ footer {
     height: 526px;
     padding: 5px;
     margin-left: 5px;
+}
+
+/* Media queries */
+
+/* For larger to medium screen size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    
 }
