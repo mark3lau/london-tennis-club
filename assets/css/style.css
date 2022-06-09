@@ -67,7 +67,7 @@ header {
 
 /* Headings */
 
-/* Landing page title */
+/* Home page title */
 
 h1 {
     font-family: abril fatface, sans-serif;
@@ -101,7 +101,7 @@ h2 {
     background: no-repeat center center;
 }
 
-/* Landing page cover text styling */
+/* Home page cover text styling */
 
 .cover-text {
     width: 360px;
