@@ -40,7 +40,7 @@ header {
 
 .menu {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 100%;
     letter-spacing: 5px;
     color: #2b9c71;
 }
@@ -72,8 +72,7 @@ header {
 
 h1 {
     font-family: abril fatface, sans-serif;
-    font-weight: 250px;
-    font-size: 80px;
+    font-size: 500%;
     text-transform: uppercase;
     color: #2b9c71;
     margin: 50px 30px;
@@ -87,8 +86,7 @@ h1 {
 
 h2 {
     font-family: abril fatface, sans-serif;
-    font-weight: 250px;
-    font-size: 50px;
+    font-size: 350%;
     text-transform: uppercase;
     color: #2b9c71;
     margin: 40px 30px;
@@ -106,10 +104,10 @@ h2 {
 /* Home page cover text styling */
 
 .cover-text {
-    width: 360px;
-    height: 360px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    top: 100%;
+    top: 90%;
     left: 8%;
     background-color: rgba(248, 171, 70, 0.884);
     position: absolute;
@@ -121,13 +119,13 @@ h2 {
     text-align: center;
     padding: 5px;
     margin-top: 18%;
-    font-size: 360%;
+    font-size: 300%;
 }
 
 /* How it works */
 
 .sub-heading {
-    margin: 100px 30px 50px 30px;
+    margin: 80px 30px 50px 30px;
 }
 
 /* How it works background image */
@@ -384,7 +382,52 @@ input[type="date" i] {
 
 /* For larger to medium screen size from 1200px wide and down */
 
+@media screen and (max-width: 1480px) {
+    .cover-text {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        top: 80%;
+        left: 8%;
+    }    
+
+    .cover-text h3 {
+        font-family: abril fatface, sans-serif;
+        color: #0d0e0d;
+        text-align: center;
+        padding: 3.33px;
+        margin-top: 15%;
+        font-size: 200%;
+    }
+}
+
 @media screen and (max-width: 950px) {
+
+h1 {
+    font-family: abril fatface, sans-serif;
+    font-size: 300%;
+    text-transform: uppercase;
+    color: #2b9c71;
+    margin: 50px 30px;
+    margin-top: 180px;
+    text-align: center;
+    letter-spacing: 8px;
+    border: 5px solid #F8AB46;
+}
+
+h2 {
+    font-family: abril fatface, sans-serif;
+    font-size: 220%;
+    text-transform: uppercase;
+    color: #2b9c71;
+    margin: 40px 30px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.sub-heading {
+    margin: 80px 30px 50px 30px;
+}
 
 .how-it-works {
     width: 100%;
@@ -399,10 +442,10 @@ input[type="date" i] {
 }
 
 .cover-text {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    top: 70%;
+    top: 55%;
     left: 8%;
 }
 
@@ -412,7 +455,7 @@ input[type="date" i] {
     text-align: center;
     padding: 3.33px;
     margin-top: 15%;
-    font-size: 240%;
+    font-size: 200%;
 }
 
 }
