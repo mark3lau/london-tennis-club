@@ -200,11 +200,9 @@ footer {
     text-align: center;
     width: 50%;
     height: 500px;
-    padding: 10px;
     background: rgba(228, 224, 224, 0.9);
-    margin: 200px auto;
-    top: 30px;
-    left: 450px;
+    top: 25%;
+    left: 23%;
     position: absolute;
 }
 
@@ -220,6 +218,8 @@ footer {
     background-size: cover;
     height: 100%;
     width: 100%;
+    min-height: 926px;
+    min-width: 1200px;
 }
 
 .radio-text {
