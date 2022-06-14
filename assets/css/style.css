@@ -453,8 +453,8 @@ h2 {
 }
 
 .cover-text {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     top: 55%;
     left: 8%;
@@ -466,50 +466,33 @@ h2 {
     text-align: center;
     padding: 3.33px;
     margin-top: 15%;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 390px) {
     
     .tennis-ball-home-button {
-        max-width: 45.5px;
-        max-height: 45.5px;
-        margin-left: 13px;
-        margin-top: 6.5px;
-    }
-    .menu {
-        font-weight: bold;
-        font-size: 65%;
-        letter-spacing: 5px;
-        color: #2b9c71;
+        visibility: hidden;
     }
 
-    .menu li {
-        padding: 2.5px;
+    .menu {
+        font-size: 100%;
+        letter-spacing: 5px;
     }
 
     h1 {
-        font-family: abril fatface, sans-serif;
         font-size: 200%;
-        text-transform: uppercase;
-        color: #2b9c71;
-        margin: 50px 30px;
         margin-top: 150px;
-        text-align: center;
-        letter-spacing: 8px;
-        border: 5px solid #F8AB46;
     }
     
     h2 {
-        font-family: abril fatface, sans-serif;
         font-size: 180%;
-        text-transform: uppercase;
-        color: #2b9c71;
-        margin: 40px 30px;
-        text-align: center;
-        letter-spacing: 3px;
+    }
+
+    .sub-heading {
+        margin: 50px 30px;
     }
 
     .cover-text {
@@ -521,21 +504,16 @@ h2 {
     }    
 
     .cover-text h3 {
-        font-family: abril fatface, sans-serif;
-        color: #0d0e0d;
-        text-align: center;
-        padding: 1.67px;
-        margin-top: 15%;
         font-size: 100%;
     }
 
-    .how-it-works div {
-        font-size: 150%;
+    .how-it-works i {
+        top: 30px;
     }
 
     .social-networks i {
-        font-size: 100%;
-        padding: 1.5%;
+        font-size: 150%;
+        margin: 2%;
         color: #2b9c71;
     }
     
