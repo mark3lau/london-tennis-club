@@ -256,7 +256,7 @@ input[type="date" i] {
     border: 8px solid #F8AB46;
     text-align: center;
     width: 50%;
-    height: 500px;
+    height: 60%;
     background: rgba(228, 224, 224, 0.9);
     margin: 200px 0;
     top: 5%;
@@ -311,8 +311,7 @@ input[type="date" i] {
 
 .north-txt-box {
     float: left;
-    text-align: left justify;
-    height: 500px;
+    height: 500%;
     width: 48%;
     border: 8px solid #F8AB46;
     padding: 5px;
@@ -323,8 +322,7 @@ input[type="date" i] {
 
 .east-txt-box {
     float: right;
-    text-align: right justify;
-    height: 500px;
+    height: 500%;
     width: 48%;
     border: 8px solid #F8AB46;
     margin: 5px;
@@ -335,8 +333,7 @@ input[type="date" i] {
 
 .south-txt-box {
     float: left;
-    text-align: left justify;
-    height: 500px;
+    height: 500%;
     width: 48%;
     border: 8px solid #F8AB46;
     margin: 5px;
@@ -347,8 +344,7 @@ input[type="date" i] {
 
 .west-txt-box {
     float: right;
-    text-align: right justify;
-    height: 500px;
+    height: 500%;
     width: 48%;
     border: 8px solid #F8AB46;
     margin: 5px;
@@ -360,28 +356,28 @@ input[type="date" i] {
 /* Tennis courts maps styling */
 
 .north-map {
-    width: 49%;
+    width: 48%;
     height: 526px;
     padding: 5px;
     margin-left: 5px;
 }
 
 .east-map {
-    width: 49%;
+    width: 48%;
     height: 526px;
     padding: 5px;
     margin-left: 5px;
 }
 
 .south-map {
-    width: 49%;
+    width: 48%;
     height: 526px;
     padding: 5px;
     margin-left: 5px;
 }
 
 .west-map {
-    width: 49%;
+    width: 48%;
     height: 526px;
     padding: 5px;
     margin-left: 5px;
@@ -408,6 +404,7 @@ input[type="date" i] {
         margin-top: 15%;
         font-size: 200%;
     }
+
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -544,5 +541,22 @@ h2 {
         width: 70%;
         top: 20%;
         left: 13%;
+    }
+
+    /* Thank you page */
+
+    .thank-you {
+        width: 70%;
+        top: 2%;
+        left: 13%;
+        height: 50%;
+    }
+
+    .thank-you h2 {
+        font-size: 150%;
+}
+
+    .thank-you h3 {
+        font-size: 130%;
     }
 }
