@@ -391,7 +391,6 @@ input[type="date" i] {
         margin-top: 15%;
         font-size: 200%;
     }
-
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -465,6 +464,17 @@ h2 {
 
 .join-us div {
     font-size: 85%;
+}
+
+/* Tennis courts page */
+
+.north-txt-box, .east-txt-box, .south-txt-box, .west-txt-box {
+    flex-direction: column;
+    width: 96%;
+}
+
+.north-map, .east-map, .south-map, .west-map {
+    width: 96%;
 }
 
 }
@@ -545,5 +555,12 @@ h2 {
 
     .thank-you h3 {
         font-size: 130%;
+    }
+
+    /* Tennis courts page */
+
+    .north-txt-box, .east-txt-box, .south-txt-box, .west-txt-box {
+        width: 90%;
+        overflow: hidden;
     }
 }
