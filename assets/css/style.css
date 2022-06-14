@@ -257,11 +257,10 @@ input[type="date" i] {
     text-align: center;
     width: 50%;
     height: 500px;
-    padding: 10px;
     background: rgba(228, 224, 224, 0.9);
-    margin: 200px auto;
-    top: 30px;
-    left: 450px;
+    margin: 200px 0;
+    top: 5%;
+    left: 23%;
     position: absolute;
 }
 
@@ -277,6 +276,16 @@ input[type="date" i] {
     font-family: abril fatface, sans-serif;
     color: #0d0e0d;
     padding: 5px;
+}
+
+.thank-you-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 926px;
+    min-width: 1200px;
 }
 
 /* Tennis courts page*/
