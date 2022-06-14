@@ -520,6 +520,10 @@ h2 {
         font-size: 100%;
     }
 
+    .how-it-works div {
+        font-size: 150%;
+    }
+
     .how-it-works i {
         top: 30px;
     }
