@@ -292,7 +292,6 @@ input[type="date" i] {
 
 .courts {
     margin-top: 180px;
-    display: block;
 }
 
 /* Tennis courts h3 styling */
@@ -310,75 +309,63 @@ input[type="date" i] {
 /* Tennis courts text box styling */
 
 .north-txt-box {
-    float: left;
-    height: 500%;
-    width: 48%;
-    border: 8px solid #F8AB46;
+    height: 70%;
+    border: 5px solid #F8AB46;
     padding: 5px;
     margin: 5px;
     font-size: 22px;
-    display: block;
+    display: flex;
 }
 
 .east-txt-box {
-    float: right;
-    height: 500%;
-    width: 48%;
-    border: 8px solid #F8AB46;
+    height: 70%;
+    border: 5px solid #F8AB46;
     margin: 5px;
     padding: 5px;
     font-size: 22px;
-    display: block;
+    display: flex;
 }
 
 .south-txt-box {
-    float: left;
-    height: 500%;
-    width: 48%;
+    height: 70%;
     border: 8px solid #F8AB46;
     margin: 5px;
     padding: 5px;
     font-size: 22px;
-    display: block;
+    display: flex;
 }
 
 .west-txt-box {
-    float: right;
-    height: 500%;
-    width: 48%;
+    height: 70%;
     border: 8px solid #F8AB46;
     margin: 5px;
     padding: 5px;
     font-size: 22px;
-    display: block;
+    display: flex;
 }
 
 /* Tennis courts maps styling */
 
 .north-map {
-    width: 48%;
-    height: 526px;
+    height: 98%;
     padding: 5px;
-    margin-left: 5px;
+    margin: 5px;
 }
 
 .east-map {
-    width: 48%;
-    height: 526px;
+    height: 98%;
     padding: 5px;
     margin-left: 5px;
 }
 
 .south-map {
-    width: 48%;
-    height: 526px;
+    height: 98%;
     padding: 5px;
     margin-left: 5px;
 }
 
 .west-map {
-    width: 48%;
-    height: 526px;
+    height: 98%;
     padding: 5px;
     margin-left: 5px;
 }
