@@ -1,108 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+LONDON TENNIS CLUB
 
-Welcome mark3lau,
+1. Brief introduction and purpose of the project
+My first project with Code Institute was to create a static front-end site to present useful information to users using HTML and CSS. London Tennis Club is a site that looks to connect keen tennis players of all abilities, living in London, so that they can play tennis whenever and wherever suits them and make new friends and socialise. The site is targeted towards people who want to play tennis but are struggling to find players within their current social group that are free and available at the same time as them. The site also provides information on public tennis courts in North, East, South and West of London. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+2. Features
+Header and Navigation bar
+A fixed header is featured on all three pages of the site, allowing the user to navigate with ease through links to the Home page, Join Us (registration form) page and the London Tennis Courts information page. There is an additional Home page link in the shape of a tennis ball in the top left hand corner of the page to provide further ease for the user to navigate back to the landing page, and to add to the general aesthetics of the site that is tennis related.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Landing page image
+The landing page image includes an aerial photo of a tennis court with two players playing tennis that stretches across the full width of the screen. There is also a cover text that overlays the image to describe in short the purpose of the site for the user.
 
-## Gitpod Reminders
+How it Works section
+The How it Works section allows the user to see immediately how the site works and how it could benefit them in four easy steps. Icons and a background image have been included to add to the overall aesthetics of the page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Footer
+Social media links to Facebook, Instagram, Twitter, YouTube and Linkedin have been included in the footer section of each page, and each link will open in a new tab to allow the user to stay on the site. The purpose of the social media links is to allow users to stay in touch and promote the site using social media.
 
-`python3 -m http.server`
+Join Us page
+The Join Us page is to allow the user to sign up to the site and join the community of London tennis players. The form requires users to submit information including their full name, email address, date of birth, gender and tennis ability. This information will allow the site to contact users and pair them with players of similar ability. A reset button has been added to allow users to quickly reset the form if needed as there are several lines of information requried.
 
-A blue button should appear to click: _Make Public_,
+London Tennis Courts page
+This page shows useful information on public tennis courts available in North, East, South and West London. Information include a brief summary of the courts, the website link, an email address and the address and Google map of the location of the courts. 
 
-Another blue button should appear to click: _Open Browser_.
+3. Future features
+Blog page
+For users to interact with each other more efficiently and discuss all things tennis from tennis courts, rackets, to professional matches and results being played around the world.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Photo/Gallery page
+A page for users to upload images of their matches and the friends they have played with.
 
-A blue button should appear to click: _Make Public_,
+Merchandise/shopping page
+To allow users to purchase new equipment and clothing from retailers and suppliers, and an additional feature allowing users to sell their old tennis racquets and equipment. These features will have the potential to allow the site to generate new revenue streams and provide a sustainability message to users. 
 
-Another blue button should appear to click: _Open Browser_.
+4. Typography and color scheme
+I have chosen a green and orange colour scheme as well as a bold font. Both provide a vibrant, modern and friendly site that will hopefully appeal to users. The green is also a colour associated with the Wimbledon tennis championship in London, a Grand Slam event that is well known around the world.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+5. Wireframes
+Using Balsamiq a basic wireframe was created to outline what I wanted to achieve with the site, with the initial layout and information required for each page.
 
-To log into the Heroku toolbelt CLI:
+6. Technology
+HTML and CSS.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+7. Testing
+   7.1 Code validation
+   HTML and CSS. A few errors were found when the codes were put through the W3C and Jigsaw validators that were easily fixed, these include certain property values that were incorrect and/or irrelevant. 
+   7.2 Test cases (user story based with screenshots)
+   7.3 Fixed bugs
+   There are no known unfixed bugs.
+   7.4 Supported screens and browsers
+   The site is fully supported for medium and small mobile phone screen widths of 950px and 390px. The images, texts, form, navigation bar and social media links have all been adjusted so that the user experience is unaffected for different screen sizes. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+8. Deployment
+   8.1 via gitpod
+   8.2 via github pages
 
-------
+9. Credits
+    9.1 Content
+    The codes for the implementation of the cover text on the Home page and the background image in the How it Works section was taken from the Code Institute Love Running walkthrough project.
+    The icons in the How it Works section on the Home page and the social media links in the footer were taken from Font Awesome.
+    The information on Finsbury Park tennis courts in North London was taken from the Finsbury Park tennis website www.finsburyparktennis.org.uk. The map of Finsbury Park tennis courts was taken from Google maps.
+    The information on West Ham Park tennis in East London was taken from the West Ham Park tennis website www.clubspark.lta.org.uk/westhampark. The map of West Ham Park tennis was taken from Google maps.
+    The information on All Star tennis courts in Wandsworth Common in South London was taken from the All Star tennis website www.allstartennis.co.uk. The map of the All Star tennis, Wandsworth Common was taken from Google maps.
+    The information on Queen's Park tennis courts in West London was taken from the Queen's Park tennis courts website www.clubspark.lta.org.uk/queensparktenniscourts. The map of Queen's Park tennis courts was taken from Google maps.
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+    9.2 Media
+    The hero image, background image in the How it Works section and the background image in the Thank You page were all taken from the Pexels website www.pexels.com.
+    The background image in the Join Us page was taken from the Pixabay website www.pixabay.com.
+    The tennis ball image in the header was taken from the website Etsy (https://www.etsy.com/uk/listing/684097429/tennis-ball-drink-coasters-pack-of-4-or?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_uk_en_gb_-home_and_living&utm_custom1=_k_Cj0KCQjw-daUBhCIARIsALbkjSY-80gIThyKfdcO1jT3Q2T_PawCbWR_TQ6WMYfLkrJEnDFdvvlc3p8aAinHEALw_wcB_k_&utm_content=go_14821442085_125173007022_549119977872_aud-1184048147899:pla-303628061699_c__684097429engb_116041132&utm_custom2=14821442085&gclid=Cj0KCQjw-daUBhCIARIsALbkjSY-80gIThyKfdcO1jT3Q2T_PawCbWR_TQ6WMYfLkrJEnDFdvvlc3p8aAinHEALw_wcB).
