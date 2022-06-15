@@ -186,9 +186,13 @@ footer {
 }
 
 .social-networks i {
-    font-size: 300%;
+    font-size: 250%;
     padding: 3%;
     color: #2b9c71;
+}
+
+.social-networks i:hover {
+    transform: scale(1.5);
 }
 
 /* Join us page*/
