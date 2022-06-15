@@ -38,8 +38,9 @@ header {
 }
 
 .menu {
+    font-family: abril fatface, sans-serif;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 120%;
     letter-spacing: 5px;
     color: #2b9c71;
 }
