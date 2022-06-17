@@ -305,7 +305,6 @@ input[type="date" i] {
     height: 100%;
     width: 100%;
     min-height: 926px;
-    min-width: 1200px;
 }
 
 /* Tennis courts page*/
@@ -562,9 +561,9 @@ h2 {
     /* Join us page */
 
     .join-us {
-        width: 70%;
+        width: 80%;
         top: 20%;
-        left: 13%;
+        left: 8%;
     }
 
     /* Thank you page */

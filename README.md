@@ -63,6 +63,27 @@ I have chosen a green and orange colour scheme as well as a bold font. Both prov
 
 ## <u>6. Wireframes</u>
 Using Balsamiq a basic wireframe was created to outline what I wanted to achieve with the site, with the initial layout and information required for each page.
+
+#### **Large and medium screen size**
+
+![home-page-1](docs/wireframes/home-page-1.png "Home page 1")
+![home-page-2](docs/wireframes/home-page-2.png "Home page 2")
+![join-us-page](docs/wireframes/join-us-page.png "Join us page")
+![tennis-courts-page-1](docs/wireframes/tennis-courts-page-1.png "Tennis courts page 1")
+![tennis-courts-page-2](docs/wireframes/tennis-courts-page-2.png "Tennis courts page 2")
+
+#### **Small screen size (mobile)**
+
+![home-page-1-390px](docs/wireframes/home-page%201-390px.png "Home page 1 390px")
+![home-page-2-390px](docs/wireframes/home-page%202-390px.png "Home page 2 390px")
+![home-page-3-390px](docs/wireframes/home-page%203-390px.png "Home page 3 390px")
+![join-us-page-1-390px](docs/wireframes/join-us-page%201-390px.png "Join us page 1 390px")
+![join-us-page-2-390px](docs/wireframes/join-us-page%202-390px.png "Join us page 2 390px")
+![tennis-courts-page-1-390px](docs/wireframes/tennis-courts-page-1-390px.png "Tennis courts page 1 390px")
+![tennis-courts-page-2-390px](docs/wireframes/tennis-courts-page-2-390px.png "Tennis courts page 2 390px")
+![tennis-courts-page-3-390px](docs/wireframes/tennis-courts-page-3-390px.png "Tennis courts page 3 390px")
+![tennis-courts-page-4-390px](docs/wireframes/tennis-courts-page-4-390px.png "Tennis courts page 4 390px")
+
 <hr>
 
 ## <u>7. Technology</u>
@@ -72,11 +93,11 @@ HTML and CSS.
 ## <u>8. Testing</u>
 
    ### **Code validation**
-   HTML and CSS. A few errors were found when the codes were put through the W3C and Jigsaw validators that were easily fixed, these include certain property values that were incorrect and/or irrelevant.
+   HTML and CSS. A few errors were found when the codes were put through the [W3C validator](https://validator.w3.org/) for HTML and [Jigsaw validator](https://jigsaw.w3.org/css-validator/) for CSS that were easily fixed, these include certain property values that were incorrect and/or irrelevant.
    
    ### **Test cases (user story based with screenshots)**
 
-   Desktop
+   #### **Desktop**
 
    Home page
    As the user is on the Home page, the user is shown a fixed header with a navigation bar, and a hero image that's stretched across the full width of the page with a cover text on top of the hero image. It's followed by a How it Works section describing the four steps of the process and a footer containing five social media links to Facebook, Instagram, Twitter, YouTube and LinkedIn. Hovering over each of these links, the icons will increase in size to show the user that it has been selected. Clicking each of these social media links will open the home page of the social media page on a separate page in a new tab. The footer links and actions apply to all four pages of the site.
@@ -91,8 +112,8 @@ HTML and CSS.
    London Tennis Courts page
    On the Tennis Courts page, the user is presented with 4 sections with information on tennis courts in North, East, South and West London. Each section has a google map towards the right that is fully responsive with Zoom in and out options, and clickable options for Reviews, Directions and to view a larger map. Clicking any of these three options will open up the page in a new tab. Each section also has a website link which when clicked, will open the page in a new tab. Clicking on the tennis ball image in the top left of the page will take the user back to the Home page, this works for all four pages for the user.
 
-   Mobile
-   
+   #### **Mobile** 
+   Within a screensize width of 390px, the tennis ball home button in the header disappears on all pages. The navigation bar is pushed to the top left of the screen. On the Home page the four steps in the How it Works section are stacked on top of each other. In the London tennis courts section the maps are stacked below their corresponding text information. All links and icons work as they did for the desktop width.
 
    ### **Fixed bugs**
 
@@ -110,8 +131,15 @@ HTML and CSS.
 <hr>
 
 ## <u>9. Deployment</u>
-   9.1 via gitpod
-   9.2 via github pages
+   The site was deployed to Github pages. The steps to deploy are as follows:
+
+   In Github repository, navigate to the Settings tab.
+   In the section 'Source', select the Main option and click Save.
+   Once Save has been clicked, the page will automatically refresh.
+   Scroll to the Github pages section where the live link can be found.
+
+   The live link can be found here - https://mark3lau.github.io/london-tennis-club/
+
 <hr>
 
 ## <u>10. Credits</u>
