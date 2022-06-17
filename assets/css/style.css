@@ -586,8 +586,18 @@ h2 {
 
     /* Tennis courts page */
 
+    .courts {
+        margin-top: 150px;
+    }
+
     .north-txt-box, .east-txt-box, .south-txt-box, .west-txt-box {
         width: 90%;
         overflow: hidden;
+        font-size: 120%;
     }
+
+    .north-map, .east-map, .south-map, .west-map {
+        margin: 5px;
+}
+
 }
