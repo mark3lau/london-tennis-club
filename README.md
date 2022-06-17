@@ -76,11 +76,33 @@ HTML and CSS.
    
    ### **Test cases (user story based with screenshots)**
 
-   ### **Bugs**
-   Hero Image.
+   Desktop
 
-   Tennis Courts page - change to flexbox to accommodate responsive design.
+   Home page
+   As the user is on the Home page, the user is shown a fixed header with a navigation bar, and a hero image that's stretched across the full width of the page with a cover text on top of the hero image. It's followed by a How it Works section describing the four steps of the process and a footer containing five social media links to Facebook, Instagram, Twitter, YouTube and LinkedIn. Hovering over each of these links, the icons will increase in size to show the user that it has been selected. Clicking each of these social media links will open the home page of the social media page on a separate page in a new tab. The footer links and actions apply to all four pages of the site.
+   At the navigation bar in the top right corner, as the user hovers over the links, a solid green line will appear over the selected link. Clicking on the Join Us link will take the user to the Join Us page. 
 
+   Join Us page
+   On the Join Us page, the user is greeted with a registration form. When the user types in their information in the text boxes but clicks Join without giving an input in all boxes, an error message "Please fill out this field" will appear. An error message "Please select one of these options" will also appear if the user clicks Join and no selection has been given for the Gender and/or the Tennis Ability fields. In the Date of Birth field, clicking on the box to the right of the field will open up a calendar that allows the user to choose a date. If information has been added to the fields and the user clicks the Reset button, this will reset all fields to blank.
+
+   Than You page
+   Once the user has input information into all fields and clicks Join in the Join Us page, they will be taken to a Thank You page and presented with a text box confirming to the user that they have successfully registered. The fixed header and footer with social media links are located at the top and bottom of the page as per other pages. From here, clicking on the London Tennis Courts page will take the user to a new page.
+
+   London Tennis Courts page
+   On the Tennis Courts page, the user is presented with 4 sections with information on tennis courts in North, East, South and West London. Each section has a google map towards the right that is fully responsive with Zoom in and out options, and clickable options for Reviews, Directions and to view a larger map. Clicking any of these three options will open up the page in a new tab. Each section also has a website link which when clicked, will open the page in a new tab. Clicking on the tennis ball image in the top left of the page will take the user back to the Home page, this works for all four pages for the user.
+
+   Mobile
+   
+
+   ### **Fixed bugs**
+
+   How it Works icons. 
+   
+   Bug - The icons were positioned in the top right of the text box and not centered properly in line with the text, and I could not change the size of the icons to fit inside the text box.
+
+   Solution - The first step was to change the position of the How it Works divs to position:relative. In order to target the size of the icons I used em values to the font-size property. The icons were also given a position:absolute property, and in order to center the icons I used a left: calc(50% - 26.25px) to ensure it was centered properly.
+
+   ### **Unfixed bugs**
    There are no known unfixed bugs.
    
    ### **Supported screens and browsers**
