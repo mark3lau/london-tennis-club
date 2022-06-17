@@ -38,11 +38,21 @@ The How it Works section allows the user to see immediately how the site works a
 ### **Footer**
 Social media links to Facebook, Instagram, Twitter, YouTube and Linkedin have been included in the footer section of each page, and each link will open in a new tab to allow the user to stay on the site. The purpose of the social media links is to allow users to stay in touch and promote the site using social media.
 
+![home-page](docs/screenshots/home-page.png "Home page")
+
 ### **Join Us page**
 The Join Us page is to allow the user to sign up to the site and join the community of London tennis players. The form requires users to submit information including their full name, email address, date of birth, gender and tennis ability. This information will allow the site to contact users and pair them with players of similar ability. A reset button has been added to allow users to quickly reset the form if needed as there are several lines of information requried.
 
+![join-us-page](docs/screenshots/join-us-page.png "Join Us page")
+
 ### **London Tennis Courts page**
 This page shows useful information on public tennis courts available in North, East, South and West London. Information include a brief summary of the courts, the website link, an email address and the address and Google map of the location of the courts. 
+
+![tennis-courts-page-1](docs/screenshots/tennis-courts-page-1.png "Tennis Courts page 1")
+   ![tennis-courts-page-2](docs/screenshots/tennis-courts-page-2.png "Tennis Courts page 2")
+   ![tennis-courts-page-3](docs/screenshots/tennis-courts-page-3.png "Tennis Courts page 3")
+   ![tennis-courts-page-4](docs/screenshots/tennis-courts-page-4.png "Tennis Courts page 4")
+   
 <hr>
 
 ## <u>4. Future features</u>
@@ -99,21 +109,34 @@ HTML and CSS.
 
    #### **Desktop**
 
-   Home page
+   ##### Home page
    As the user is on the Home page, the user is shown a fixed header with a navigation bar, and a hero image that's stretched across the full width of the page with a cover text on top of the hero image. It's followed by a How it Works section describing the four steps of the process and a footer containing five social media links to Facebook, Instagram, Twitter, YouTube and LinkedIn. Hovering over each of these links, the icons will increase in size to show the user that it has been selected. Clicking each of these social media links will open the home page of the social media page on a separate page in a new tab. The footer links and actions apply to all four pages of the site.
    At the navigation bar in the top right corner, as the user hovers over the links, a solid green line will appear over the selected link. Clicking on the Join Us link will take the user to the Join Us page. 
 
-   Join Us page
+   ![nav-bar-highlight](docs/screenshots/home-button-highlight.png "Nav bar highlight")
+
+   ![social-media-link-highlight](docs/screenshots/twitter-highlight.png "Social media link highlight")
+
+   ##### Join Us page
    On the Join Us page, the user is greeted with a registration form. When the user types in their information in the text boxes but clicks Join without giving an input in all boxes, an error message "Please fill out this field" will appear. An error message "Please select one of these options" will also appear if the user clicks Join and no selection has been given for the Gender and/or the Tennis Ability fields. In the Date of Birth field, clicking on the box to the right of the field will open up a calendar that allows the user to choose a date. If information has been added to the fields and the user clicks the Reset button, this will reset all fields to blank.
 
-   Than You page
+   ![join-us-error-message](docs/screenshots/join-us-error-message.png "Join us page error message")
+
+   ##### Thank You page
    Once the user has input information into all fields and clicks Join in the Join Us page, they will be taken to a Thank You page and presented with a text box confirming to the user that they have successfully registered. The fixed header and footer with social media links are located at the top and bottom of the page as per other pages. From here, clicking on the London Tennis Courts page will take the user to a new page.
 
-   London Tennis Courts page
+   ![thank-you-page](docs/screenshots/thank-you-page.png "Thank you page")
+
+   ##### London Tennis Courts page
    On the Tennis Courts page, the user is presented with 4 sections with information on tennis courts in North, East, South and West London. Each section has a google map towards the right that is fully responsive with Zoom in and out options, and clickable options for Reviews, Directions and to view a larger map. Clicking any of these three options will open up the page in a new tab. Each section also has a website link which when clicked, will open the page in a new tab. Clicking on the tennis ball image in the top left of the page will take the user back to the Home page, this works for all four pages for the user.
 
    #### **Mobile** 
    Within a screensize width of 390px, the tennis ball home button in the header disappears on all pages. The navigation bar is pushed to the top left of the screen. On the Home page the four steps in the How it Works section are stacked on top of each other. In the London tennis courts section the maps are stacked below their corresponding text information. All links and icons work as they did for the desktop width.
+
+   ![home-page-390px](docs/screenshots/home-page-390px.png "Home page 390px")
+   ![join-us-page-390px](docs/screenshots/join-us-page-390px.png "Join Us page 390px")
+   ![thank-you-page-390px](docs/screenshots/thank-you-page-390px.png "Thank You page 390px")
+   ![tennis-courts-page-390px](docs/screenshots/tennis-courts-page-390px.png "Tennis Courts page 390px")
 
    ### **Fixed bugs**
 
